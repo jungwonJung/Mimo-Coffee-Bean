@@ -125,7 +125,10 @@ h3 {
 .banner-container > :nth-child(2) img {
   width: 99%;
   height: 99%;
+  min-width: 50px;
+  min-height: 50px;
 }
+
 
 
 
@@ -136,6 +139,8 @@ h3 {
 
 .banner-container > :nth-child(1) > :nth-child(3) input {
   background-color: var(--Card);
+  padding-left: 10px;
+  padding-right: 10px;
   border: none;
   border-radius: 10px;
   width: 350px;
@@ -180,24 +185,29 @@ margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex:1 0 200px;
   flex-wrap: wrap;
 }
 
-
-
 .special-offer-card{
   background-color: var(--Card);
-  margin-right: 20px;
+  gap: 20px 20px;
   margin-bottom: 20px;
-  width: 400px;
+  width: 360px;
   height: 310px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex:1 0 200px;
+  flex-basis: auto;
 }
+
+@media (max-width : 780px) {
+  .special-offer-card {
+    width: 300px;
+  } 
+}
+
 
 .special-offer-card > :nth-child(1){
   width: 260px;
@@ -207,16 +217,18 @@ margin-bottom: 30px;
 }
 
 .special-offer-card > :nth-child(2){
+  margin-top: -10px;
   margin-bottom: 20px;
 }
 
-.special-offer-card > :nth-child(3){
+.special-offer-card button{
   background-color: var(--Accent-magenta);
   color: white;
   border: none;
   width: 120px;
   height: 30px;
   border-radius: 16px;
+  margin-top: -20px;
 }
 
 
@@ -233,7 +245,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 300px;
-  flex: 1 0 200px;
   flex-wrap: wrap;
 }
 
@@ -241,5 +252,6 @@ footer {
   padding-top: 50px;
   margin-bottom: 10px;
   color: var(--White);
-  text-align: center;
+  align-items: center;
 }
+
