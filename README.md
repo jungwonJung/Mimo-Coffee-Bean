@@ -1,7 +1,7 @@
 
 # Coffee-Bean-shop
 
-## [Coffee-Bean-shop](https://monumental-squirrel-ac1582.netlify.app/index.html) # Check this Service
+## Coffee-Bean-shop](https://monumental-squirrel-ac1582.netlify.app/index.html) # Check this Service
 Landing page for a coffee bean shop
 
 
