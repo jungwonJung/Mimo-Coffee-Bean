@@ -1,7 +1,7 @@
 
-# Mimo-Coffee-Bean
+# Coffee-Bean-shop
 
-## [[Mimo-sweet-berries-project](https://genuine-entremet-8c6bcb.netlify.app/) # Check this Service
+## [Coffee-Bean-shop](https://monumental-squirrel-ac1582.netlify.app/index.html) # Check this Service
 Landing page for a coffee bean shop
 
 
@@ -12,4 +12,4 @@ Landing page for a coffee bean shop
 
 ## Deployment
 
-The project is deployed on Netlify. You can visit the live site [[here](https://genuine-entremet-8c6bcb.netlify.app/)]
+The project is deployed on Netlify. You can visit the live site [[here](https://monumental-squirrel-ac1582.netlify.app/index.html)]
